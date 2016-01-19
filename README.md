@@ -18,4 +18,4 @@ Installs Bit9 Server onto Windows Server 2012 R2 with SQL Server 2012
 
 ## Enable Shared Memory
 
-* Edit `EnableSharedMemory.ps1' specifically `ChangeSQLProtocolStatus -server "BIT9SRV1" -instance "BIT9" -protocol "SM" -enable $true` and change BIT9SRV1 to your server name (not FQDN)
+* Edit `EnableSharedMemory.ps1` specifically `ChangeSQLProtocolStatus -server "BIT9SRV1" -instance "BIT9" -protocol "SM" -enable $true` and change BIT9SRV1 to your server name (not FQDN)
