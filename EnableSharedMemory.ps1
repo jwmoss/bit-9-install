@@ -39,7 +39,7 @@ function ChangeSQLProtocolStatus($server,$instance,$protocol,$enable){
 ##################################################################
 # Disable Shared Memory SQL Server Network Protocol
 ##################################################################
-ChangeSQLProtocolStatus -server "BIT9SRV1" -instance "BIT9" -protocol "SM" -enable $false
+ChangeSQLProtocolStatus -server "BIT9SRV1" -instance "BIT9" -protocol "SM" -enable $true
  
 ##################################################################
 # Disable VIA SQL Server Network Protocol
