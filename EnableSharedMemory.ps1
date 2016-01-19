@@ -1,3 +1,6 @@
+#Shoutout to https://sandroaspbiztalkblog.wordpress.com/2013/04/04/how-to-configure-sql-server-network-protocols-in-the-sql-server-that-houses-biztalk-server-databases-with-powershell/
+#for the script to enable Shared Memory within SQL
+
 [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo")
 [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.SqlWmiManagement")
  
